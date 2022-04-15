@@ -1,2 +1,5 @@
-SERVER = 'ec2-100-26-202-226.compute-1.amazonaws.com'
+SERVER = 'ec2-3-84-11-19.compute-1.amazonaws.com'
 PORT = '5678'
+PORT2 = '5679'
+# SERVER = 'localhost'
+# PORT = '8080'

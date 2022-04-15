@@ -4,7 +4,7 @@ import random
 from const import *
 context = zmq.Context()
 
-p1 = "tcp://"+ SERVER +":"+ PORT # how and where to connect
+p1 = "tcp://"+ SERVER +":"+ PORT2 # how and where to connect
 s  = context.socket(zmq.REQ)    # create request socket
 # print("Escreva a operacao(add,subtract,multiply,divide) e dois numeros na mesma linha e separados por espaço")
 l = ['add','subtract','multiply','divide']
@@ -17,4 +17,4 @@ for i in range(10):
 	print(msg)
 	print (bytes.decode(message))                 # print result
 
-s.send(b"STOP") 
+# s.send(b"STOP") 
